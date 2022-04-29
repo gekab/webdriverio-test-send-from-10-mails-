@@ -7,7 +7,7 @@ class InboxUkrNetPage {
     }
 
     get buttonSendLetterNow () {
-        return $("/html/body/div[1]/div[2]/div/div/div[1]/div/button");
+        return $(".controls .button.primary.send");
     }
     
     get inputToField () {
